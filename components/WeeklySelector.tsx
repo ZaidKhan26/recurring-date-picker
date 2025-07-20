@@ -22,10 +22,10 @@ export default function WeeklySelector() {
       <p className="text-sm font-medium mb-1">Select Weekdays</p>
       <div className="flex gap-2">
         {days.map((day, idx) => (
-          <button
+          <button 
             key={day}
             onClick={() => toggleDay(idx)}
-            className={`px-3 py-1 rounded border ${
+            className={`px-3 py-2 rounded-md border border-gray-300 hover:bg-blue-100 text-gray-700 font-medium transition${
               selectedWeekDays.includes(idx) ? 'bg-blue-500 text-white' : ''
             }`}
           >

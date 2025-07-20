@@ -43,12 +43,12 @@ export default function CalendarPreview() {
   }, [startDate, endDate, recurrenceType, selectedWeekDays, selectedMonthDates])
 
   return (
-    <div className="mt-6">
-      <h2 className="text-lg font-bold mb-2">Generated Dates</h2>
+    <div className="mt-6 p-4 bg-gray-50 border rounded-lg shadow-inner">
+      <h2 className="text-lg font-semibold text-gray-700 mb-2">Generated Dates</h2>
       {resultDates.length === 0 ? (
         <p className="text-sm text-gray-500">No dates to display</p>
       ) : (
-        <ul className="list-disc ml-4 text-sm">
+        <ul className="list-disc ml-5 text-gray-600">
           {resultDates.map((d, i) => (
             <li key={i}>{d.toDateString()}</li>
           ))}

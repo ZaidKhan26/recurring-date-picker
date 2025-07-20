@@ -9,7 +9,7 @@ export default function DateRangePicker() {
     <div className="flex gap-4 items-center">
       <div>
         <label htmlFor="start-date">Start Date</label>
-        <input
+        <input className="border border-gray-300 px-3 py-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           id="start-date"
           data-testid="start-date"
           type="date"
@@ -18,7 +18,7 @@ export default function DateRangePicker() {
         />
 
         <label htmlFor="end-date">End Date</label>
-        <input
+        <input className="border border-gray-300 px-3 py-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           id="end-date"
           data-testid="end-date"
           type="date"

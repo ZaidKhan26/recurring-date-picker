@@ -11,7 +11,7 @@ export default function RecurrenceSelector() {
       <select
         value={recurrenceType}
         onChange={(e) => setRecurrenceType(e.target.value as any)}
-        className="border px-2 py-1 rounded"
+        className="border border-gray-300 px-3 py-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
       >
         <option value="none">None</option>
         <option value="daily">Daily</option>
