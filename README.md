@@ -19,7 +19,7 @@ A modern, minimal recurring date picker built with:
 
 ## 🖼️ Demo
 
-👉 **Live:** https://3000-zaidkhan26-recurringdat-889g3eazn9z.ws-us120.gitpod.io/
+👉 **Live:** (https://recurring-date-picker-sepia.vercel.app/)
 🎥 **Loom Video:** [Loom Link](#) *(replace with your Loom recording URL)*
 
 ## 📁 Folder Structure
